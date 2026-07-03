@@ -105,6 +105,9 @@ ul li a:hover
   grid-template-columns: repeat(3, 300px);
   justify-content: center;
   gap: 10px;
+  background-image: url(/1.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .card
