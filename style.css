@@ -1,0 +1,134 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: helvetica;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  color: #1E1E24;
+  background-color: #F9F8F6;
+  opacity: 0.9;
+}
+
+header
+{
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position:fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  width: 100%;
+  background-color:  #F9F8F6;
+  color: #1E1E24;
+}
+
+
+header h1
+{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+header img
+{
+  height: 50px;
+}
+
+nav ul
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none;
+}
+
+ul li a
+{
+  color: #1E1E24;
+  text-decoration: none;
+}
+
+ul li a:hover
+{
+  display: block;
+  background-color: #e5d5c8a1;
+  padding: 10px;
+  margin: 0px;
+}
+
+.mainsection
+{
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  background-image: url(/hero.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.mainsection
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.band
+{
+  background-color: #e5d5c8a1;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.section1
+{
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cards
+{
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
+  gap: 10px;
+}
+
+.card
+{
+  text-align: center;
+}
+
+.card img
+{
+  height: 200px;
+  width: 300px;
+}
+
+.cards
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer
+{
+  background-color: #e5d5c8a1;
+  text-align: center;
+  font-size: 0.8em;
+}
