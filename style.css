@@ -70,7 +70,7 @@ ul li a:hover
   height: 700px;
   width: 1200px;
   margin: auto;
-  background-image: url(/hero.png);
+  background-image: url(hero.png);
   background-size: cover;
   background-position: center;
 }
